@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:   hsl(0, 0%, 94%);
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    height: 350px;
+    width: 500px;
+    border: 15px;
+    border-radius: 10px 10px 40% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+input{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+hr{
+    height: 1px;
+    width: 80%;
+    border:none;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.result{
+    display: flex;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:  hsl(259, 100%, 65%);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 50%, 2%);
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+    border-color: hsl(259, 100%, 65%); 
+}
+
+.value{
+    color: hsl(259, 100%, 65%);
+}
+
+h2{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+label{
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:hsl(0, 1%, 44%);
+}
+
+::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:hsl(0, 1%, 44%);
+}
+
+.null, .valided{
+    color:hsl(0, 100%, 67%)
+    ;
+}
+
+.daynull, .monthnull, .yearnull, .dayvalided, .monthvalided, .yearvalided{
+    border-color:hsl(0, 100%, 67%) ;
+}

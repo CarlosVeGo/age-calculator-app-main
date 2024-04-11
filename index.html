@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="design/style.css">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="inputs">
+          <div class="input dia">
+            <label for="day" id="labelday">DAY</label>
+            <input type="number" name="day" id="day" placeholder="DD" required>
+          </div>
+          <div class="input mes">
+            <label for="month" id="labelmonth">MONTH</label>
+            <input type="number" name="month" id="month" placeholder="MM" required>
+          </div>
+            <div class="input año">
+            <label for="year" id="labelyear">YEAR</label>
+            <input type="number" name="year" id="year" placeholder="YYYY" required>
+          </div>
+      </div>
+            <div class="button">
+              <hr>
+              <button type="submit" class="submit"><img src="assets/images/icon-arrow.svg"></button>
+          </div>
+      
+    </form>
+      <div class="year result">
+        <h2 class="value">--</h2><h2>years</h2>
+      </div>
+      <div class="month result">
+        <h2 class="value">--</h2><h2>months</h2>
+      </div>
+      <div class="day result">
+        <h2 class="value">--</h2><h2>days</h2>
+      </div>
+  </div>
+  <script type="module" src="design/index.js"></script>
+</body>
+</html>
