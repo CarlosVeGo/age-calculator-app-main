@@ -101,9 +101,9 @@ submit.addEventListener("click",(e)=>{
         yearfinal.innerHTML = `<h2 class="value">${yearShow}</h2><h2>years</h2>`
 
     } else{
-        dayfinal.innerHTML = `<h2 class="value">$--</h2><h2>days</h2>`
-        monthfinal.innerHTML = `<h2 class="value">$--</h2><h2>months</h2>`
-        yearfinal.innerHTML = `<h2 class="value">$--</h2><h2>years</h2>`  
+        dayfinal.innerHTML = `<h2 class="value">--</h2><h2>days</h2>`
+        monthfinal.innerHTML = `<h2 class="value">--</h2><h2>months</h2>`
+        yearfinal.innerHTML = `<h2 class="value">--</h2><h2>years</h2>`  
     }
 })
 
