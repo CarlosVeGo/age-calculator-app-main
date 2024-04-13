@@ -111,7 +111,8 @@ label{
 }
 
 .null, .valided{
-    color:hsl(0, 100%, 67%)
+    color:hsl(0, 100%, 67%);
+    font-size: 12px;
     ;
 }
 
